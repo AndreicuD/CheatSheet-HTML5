@@ -18,7 +18,7 @@ h3 {color: black;}
 		<h1 style="text-align:center">FOR HTML5</h1> 
       <h1>All related to text</h1>
 	  
-	  
+	<section>
 	  <h2>Formating</h2>
 	  
 	 <h3>Italic</h3>
@@ -36,9 +36,22 @@ h3 {color: black;}
 		&ltb&gtYOUR TEXT&lt/b&gt <br>
 		<b>For example:</b> <br>
 		<b>(&ltstrong&gt)Maria(&lt/strong&gt)</b> goes to the beach and get's lost.</p>
-		<br>
-		
-		
+		<br>	
+	</section>
+	
+	<h2>Colors!</h2>
+	
+	<blockquote><p style="color :green;">For making texts colored you will need to put<br>
+	some code inside the &ltp&gt or the &lth1&gt</p> <br>
+	This is easier shown in some code: <br>
+	
+	<p>&ltp	 style="color :green;">Hello World&lt/p&gt will output:
+	
+	<p style="color :green;">Hello World</p>
+
+	</blockquote>
+	<br>
+	<section>	
 	 <h2>Spacing</h2>
 	  
 	  <h3>Next Line</h3>
@@ -49,8 +62,10 @@ h3 {color: black;}
 		&ltp&gtYOUR TEXT&ltp&gt = Next line <b>(With Spacing!!!)</b> <br>
 		<b>For example:</b> <br>
 		<p>(&ltp&gt)Thingy(&lt/p&gt) </p>
-		Another Thingy
-		
+		Another Thingy <br>
+		<br>
+	</section>
+	<section>
 	<h2>Headers</h2>
 	 
 	 For headers you can use: &lth1&gt, &lth2&gt, &lth3&gt, &lth4&gt, ... <br>
@@ -58,9 +73,51 @@ h3 {color: black;}
 	 <b>For example:</b> <br>
 	 <h1 style="color :black;">(&lth1&gt)Header(&lt/h1&gt)</h1> <br>
 	 <h2 style="color :black;">(&lth2&gt)Header(&lth2&gt) </h2> 
+	 <br>
+	</section>
 	
-	  
-		
+	<section>
+	<h2>Lists</h2>
+	
+	There are 3 types of lists: 
+	<ul>
+	<li>Ordered lists (noted with &ltol&gt)</li> 
+	<li>Unordered lists (noted with: &ltul&gt)</li>
+	<li>Definition lists (noted with: &ltdl&gt)</li>
+	</ul>
+	
+	<h3>Ordered and Unordered lists</h3>
+	After you start a list (with &ltol&gt or &ltul&gt) you will include every <br>
+	item between &ltli&gt and &lt/li&gt ("li" stands for list item). After this, <br>
+	close the list with &lt/ol&gt or &lt/ul&gt.
+	
+	<h3>Definition lists</h3>
+	After opening the list (with &ltdl&gt) you will put the item you want between <br>
+	&ltdt&gt and &lt/dt&gt. Giving it a definition is as easy as puting the text <br>
+	(or whatever else you want to put as definition) in the line imediatly after the item code <br>
+	and between &ltdd&gt and &lt/dd&gt.
+	
+	
+	
+	<section>
+	<h2>Other things to keep in mind.</h2>
+	
+	Some other things to keep in mind are: <br>
+	<blockquote><dl>
+	<dt>-sections (&ltsection&gtYOUR CODE&lt/section&gt)</dt>
+	<dd> makes no diference visually, but helps with search engines.</dd>
+	<dt>-articles (&ltarticle&gtYOUR CODE&lt/article&gt) </dt>
+	<dd> makes no diference visually, but helps with screen-readears, search engines and for home assistants. </dd>
+	<dt>-aside (&ltaside&gtYOUR CODE&lt/aside&gt) </dt>
+	<dd> makes no diference visually, but tells screen-readears, search engines and home assistants that that information is not so important. </dd> </blockquote>
+	<br>
+	also 
+	<br>
+	<blockquote></dl>
+	<dl>
+	<dt>-block quotas (&ltblockquote&gtYOUR CODE&lt/blockquote&gt)</dt>
+	<dd> this makes the text appear with more space by the wall, like you see in this lists.</dd></blockquote>
+	</section>
      </body>
 		
 </html>
